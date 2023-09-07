@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 export default function blackholes() {
   const [data, setData] = useState([]);
   useEffect(() => {
-    axios.get(`${API}data/`).then((json) => setData(json.data));
+    axios.get(`${API}data`).then((json) => setData(json.data));
   }, []);
   const renderData = () => {
     return data.map((data) => {
