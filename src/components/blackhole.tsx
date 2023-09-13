@@ -64,7 +64,6 @@ export function blackholeComponent(data) {
       <div className="flex justify-between bg-neutral-900 p-2 rounded m-2">
         <p>Distance:</p> {data.distance.ly} Light Year
       </div>
-
       <div className="flex justify-between bg-neutral-900 p-2 rounded m-2">
         <a href={data.wikipedia} target="_blank">
           WikiPedia 📕
