@@ -3,6 +3,7 @@ import Index from "./views/index";
 import BlackHoles from "./views/blackholes";
 import BlackHole from "./views/blackhole";
 import NotFound from "./views/notFound";
+import RandomBlackHole from "./views/random";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<Index />} />
           <Route path="*" element={<NotFound />} />
           <Route path="/blackholes" element={<BlackHoles />} />
+          <Route path="/random" element={<RandomBlackHole />} />
           <Route path="blackhole">
             <Route path=":id" element={<BlackHole />} />
           </Route>
