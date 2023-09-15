@@ -1,7 +1,7 @@
 export default function index() {
   return (
-    <div className="body">
-      <div className="rounded-md w-fit mx-auto mt-32 p-2 text-center select-none  text-neutral-50 font-semibold">
+    <div className="body ">
+      <div className="w-full h-screen pt-36 text-center select-none  text-neutral-50 font-semibold backdrop-brightness-95">
         <p className="text-5xl mb-6 font-medium">Black Holes</p>
         <br />
         <a
