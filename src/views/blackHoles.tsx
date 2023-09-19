@@ -1,7 +1,7 @@
 import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
-import { blackholeComponent } from "../components/blackhole";
+import { blackholesComponent } from "../components/blackhole";
 export default function blackholes() {
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -9,8 +9,12 @@ export default function blackholes() {
   }, []);
   const renderData = () => {
     return data.map((data) => {
-      return blackholeComponent(data);
+      return blackholesComponent(data);
     });
   };
-  return <div className="text-neutral-50">{renderData()}</div>;
+  return (
+    <div className="text-neutral-50 flex  flex-wrap justify-center">
+      {renderData()}
+    </div>
+  );
 }
