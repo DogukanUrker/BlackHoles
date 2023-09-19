@@ -9,31 +9,31 @@ export default function index() {
             href="/blackholes"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
-            See all Black Holes.
+            See all
           </a>
           <a
             href="/search"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
-            Search Black Holes.
+            Search
           </a>
           <a
             href="/random"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
-            Random Black Hole.
+            Random
           </a>
           <a
             href="/whatisblackhole"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
-            What is a Black Hole?
+            What is this?
           </a>
           <a
             href="/about"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
-            About.
+            About
           </a>
         </div>
       </div>
