@@ -8,21 +8,21 @@ export default function index() {
           href="/blackholes"
           className="text-center hover:text-neutral-300 duration-150 text-xl"
         >
-          Click to see all Black Holes.
+          See all Black Holes.
         </a>{" "}
         <br />
         <a
           href="/search"
           className="text-center hover:text-neutral-300 duration-150 text-xl"
         >
-          Click to search Black Holes.
+          Search Black Holes.
         </a>
         <br />
         <a
           href="/random"
           className="text-center hover:text-neutral-300 duration-150 text-xl"
         >
-          Click for a random Black Hole.
+          Random Black Hole.
         </a>
       </div>
     </div>
