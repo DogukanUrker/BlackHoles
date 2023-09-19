@@ -8,7 +8,7 @@ export default function About() {
             This list of <a href="/whatisblackhole">black holes</a> (and stars
             considered probable candidates) is organized by mass (including
             <a href="/whatisblackhole">black holes</a> of undetermined mass);
-            some items in this API are galaxies or star clusters that are
+            some items in this site are galaxies or star clusters that are
             believed to be organized around a
             <a href="/whatisblackhole">black hole</a>.
           </p>
