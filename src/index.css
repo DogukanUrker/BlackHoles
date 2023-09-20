@@ -23,6 +23,7 @@ html {
   background: transparent;
   height: 0;
 }
+
 .body {
   background: white url("/src/assets/BH_1300lede.gif") no-repeat center;
   object-fit: cover;
