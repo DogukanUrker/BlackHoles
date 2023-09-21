@@ -12,22 +12,10 @@ export default function index() {
             See all
           </a>
           <a
-            href="/search"
-            className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
-          >
-            Search
-          </a>
-          <a
             href="/random"
             className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
           >
             Random
-          </a>
-          <a
-            href="/whatisblackhole"
-            className="text-center hover:text-neutral-300 duration-150 text-xl m-1 w-fit mx-auto"
-          >
-            What is this?
           </a>
           <a
             href="/about"
