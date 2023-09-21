@@ -11,6 +11,7 @@ export default function blackhole() {
   }, []);
   const renderData = () => {
     return data.map((data) => {
+      document.title = data.name[0];
       return blackHoleDetailedComponent(data);
     });
   };
