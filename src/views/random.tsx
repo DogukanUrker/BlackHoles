@@ -19,7 +19,7 @@ export default function randomBlackHole() {
     <div className="text-neutral-50">
       <button
         onClick={refreshPage}
-        className="p-2 text-neutral-950 bg-neutral-50 font-medium rounded hover:bg-neutral-200 duration-150 absolute top-2 left-2"
+        className="p-2 text-neutral-50 bg-neutral-900 font-medium rounded hover:bg-neutral-800 duration-150 absolute top-2 left-2"
       >
         Random
       </button>
