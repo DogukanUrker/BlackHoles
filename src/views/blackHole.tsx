@@ -2,7 +2,7 @@ import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { blackholeComponent } from "../components/blackhole";
+import { blackHoleDetailedComponent } from "../components/blackHoleDetailedComponent";
 export default function blackhole() {
   let { id } = useParams();
   const [data, setData] = useState([]);
@@ -11,7 +11,7 @@ export default function blackhole() {
   }, []);
   const renderData = () => {
     return data.map((data) => {
-      return blackholeComponent(data);
+      return blackHoleDetailedComponent(data);
     });
   };
   return <div className="text-neutral-50">{renderData()}</div>;

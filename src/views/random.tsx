@@ -1,7 +1,7 @@
 import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
-import { blackholeComponent } from "../components/blackhole";
+import { blackHoleComponent } from "../components/blackHoleComponent";
 function refreshPage() {
   window.location.reload();
 }
@@ -12,7 +12,7 @@ export default function randomBlackHole() {
   }, []);
   const renderData = () => {
     return data.map((data) => {
-      return blackholeComponent(data);
+      return blackHoleComponent(data);
     });
   };
   return (
