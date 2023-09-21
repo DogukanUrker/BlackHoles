@@ -31,7 +31,7 @@ export default function About() {
             .
           </p>
           <p className="text-xs mt-4">
-            Made with 💖 by{" "}
+            Made with 💙 by{" "}
             <a href="https://dogukanurker.com" target="_blank">
               Dogukan Urker
             </a>
