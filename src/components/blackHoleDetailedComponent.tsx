@@ -1,6 +1,6 @@
 export function blackHoleDetailedComponent(blackhole: string) {
   return (
-    <div className="bg-neutral-800 p-2 m-4 rounded w-[26rem] mx-auto">
+    <div className="bg-neutral-800 p-2 m-4 rounded w-[32rem] mx-auto">
       <div>
         <img src={blackhole.image} className="w-64 mx-auto mb-2 rounded" />
       </div>
