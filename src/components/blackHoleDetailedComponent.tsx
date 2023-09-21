@@ -2,7 +2,10 @@ export function blackHoleDetailedComponent(blackhole: string) {
   return (
     <div className="bg-neutral-900 p-2 m-4 rounded w-[32rem] mx-auto">
       <div>
-        <img src={blackhole.image} className="w-72 mx-auto mb-2 rounded" />
+        <img
+          src={blackhole.image}
+          className="w-72 mx-auto mb-4 mt-2 rounded hover:scale-105 duration-200"
+        />
       </div>
       <div className="flex justify-between bg-neutral-950/50 p-2 rounded m-2">
         <p>Name:</p> {blackhole.name[0]}
