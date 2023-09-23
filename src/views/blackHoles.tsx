@@ -2,6 +2,7 @@ import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
 import { blackHoleComponent } from "../components/blackHoleComponent";
+import { searchBar } from "../components/searchBarComponent";
 export default function blackholes() {
   const [data, setData] = useState([]);
   const [input, setInput] = useState("");
@@ -17,14 +18,7 @@ export default function blackholes() {
   };
   return (
     <>
-      <div className="mx-auto w-fit mt-4">
-        <input
-          type="text"
-          className="p-2 text-center rounded bg-neutral-900 text-neutral-50 focus:outline-0 focus:ring-1 focus:ring-sky-300 duration-150"
-          placeholder="search"
-          onChange={(e) => setInput(e.target.value)}
-        />
-      </div>
+      {searchBar(setInput)}
       <div className="text-neutral-50 flex  flex-wrap justify-center">
         {renderData()}
       </div>
