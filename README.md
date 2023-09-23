@@ -3,10 +3,12 @@
 ## Requirements 📦
 
 #### Backend
+
 - FastAPI
 - Uvicorn
 
 #### Frontend
+
 - React
 - React-Dom
 - Tailwind
