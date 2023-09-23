@@ -1,4 +1,4 @@
-# [BlackHoles🕳️](https://dogukanurker.com/blackholes)
+# [BlackHoles⚫](https://dogukanurker.com/blackholes)
 
 ## Requirements 📦
 
