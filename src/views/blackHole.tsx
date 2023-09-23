@@ -2,19 +2,14 @@ import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { blackHoleDetailedComponent } from "../components/blackHoleDetailedComponent";
+import { renderBlackHole } from "../renderers/renderBlackHole";
 export default function blackhole() {
   let { id } = useParams();
   const [data, setData] = useState([]);
   useEffect(() => {
     axios.get(`${API}data/${id}`).then((json) => setData(json.data));
   }, []);
-  const renderData = () => {
-    return data.map((data) => {
-      document.title = data.name[0];
-      return blackHoleDetailedComponent(data);
-    });
-  };
+
   return (
     <div className="text-neutral-50">
       <a
@@ -23,7 +18,7 @@ export default function blackhole() {
       >
         All
       </a>
-      {renderData()}
+      {renderBlackHole(data)}
     </div>
   );
 }

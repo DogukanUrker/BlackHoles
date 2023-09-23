@@ -1,7 +1,7 @@
 import axios from "axios";
 import { API } from "../constants";
 import { useState, useEffect } from "react";
-import { blackHoleDetailedComponent } from "../components/blackHoleDetailedComponent";
+import { renderBlackHole } from "../renderers/renderBlackHole";
 function refreshPage() {
   window.location.reload();
 }
@@ -10,11 +10,6 @@ export default function randomBlackHole() {
   useEffect(() => {
     axios.get(`${API}random`).then((json) => setData(json.data));
   }, []);
-  const renderData = () => {
-    return data.map((data) => {
-      return blackHoleDetailedComponent(data);
-    });
-  };
   return (
     <div className="text-neutral-50">
       <button
@@ -23,7 +18,7 @@ export default function randomBlackHole() {
       >
         Random
       </button>
-      {renderData()}
+      {renderBlackHole(data)}
     </div>
   );
 }
