@@ -6,6 +6,7 @@ export function blackHoleComponent(blackhole: string) {
           <img
             src={blackhole.image}
             className="w-56 h-56 mx-auto mb-2 rounded drop-shadow-md hover:scale-105 duration-200"
+            loading="lazy"
           />
         </a>
         <a
