@@ -1,5 +1,14 @@
 # [BlackHoles⚫](https://dogukanurker.com/blackholes)
 
+List of Black Holes.
+<br/>
+[Contact](mailto:dogukanurker@icloud.com)<br/>
+[Dogukan Urker](https://dogukanurker.com)
+### [Demo Video 📺](https://youtu.be/HwRcHa7RQq4)
+|              Desktop               |              Mobile              |
+| :--------------------------------: | :------------------------------: |
+| ![appDesktop](/images/desktop/desktop.png) | ![appMobile](/images/mobile/mobile.png) |
+
 ## Requirements 📦
 
 #### Backend
